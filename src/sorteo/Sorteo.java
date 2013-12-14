@@ -40,34 +40,41 @@ public class Sorteo extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jTextFieldNumero = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1366, 768));
+        getContentPane().setLayout(null);
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 180)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 200)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("1");
         jLabel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.red, java.awt.Color.red));
         jLabel1.setOpaque(true);
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(86, 307, 250, 333);
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setFont(new java.awt.Font("Comic Sans MS", 1, 180)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Comic Sans MS", 1, 200)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("1");
         jLabel2.setAlignmentY(0.0F);
         jLabel2.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.red, java.awt.Color.red));
         jLabel2.setOpaque(true);
         jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(354, 307, 250, 333);
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel3.setFont(new java.awt.Font("Comic Sans MS", 1, 180)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Comic Sans MS", 1, 200)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("1");
+        jLabel3.setText(" ");
         jLabel3.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.red, java.awt.Color.red));
         jLabel3.setOpaque(true);
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(622, 307, 250, 333);
 
         jButton1.setBackground(new java.awt.Color(255, 0, 0));
         jButton1.setFont(new java.awt.Font("Comic Sans MS", 1, 100)); // NOI18N
@@ -80,67 +87,35 @@ public class Sorteo extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(0, 121, 944, 168);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
         jLabel4.setText("IES Los Remedios: ");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(10, 11, 230, 104);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 0, 0));
         jLabel5.setText("Sorteo Navidad 2013");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(246, 11, 237, 104);
 
         jTextFieldNumero.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        getContentPane().add(jTextFieldNumero);
+        jTextFieldNumero.setBounds(839, 11, 95, 19);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 0, 0));
         jLabel6.setText("Max:");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(808, 13, 27, 14);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(55, 55, 55)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 52, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextFieldNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 66, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextFieldNumero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-        );
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\JoseRamon\\Desktop\\FP - JAVA\\Sorteo\\imagenes\\esferas-azules-para-navidad-christmas-blue-shine.jpg")); // NOI18N
+        jLabel7.setText("jLabel7");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(0, 0, 1370, 770);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -170,7 +145,7 @@ public class Sorteo extends javax.swing.JFrame {
                 if (i == 9)
                     jLabel1.setText(String.valueOf(centenas));
                 jLabel1.paintImmediately(0,0,jLabel1.getWidth(),jLabel1.getHeight());
-                Thread.sleep(200);
+                Thread.sleep(150);
             }
             for (int i = 0;i < 10;i++) {
                 int numero = generador.nextInt(10);
@@ -178,7 +153,7 @@ public class Sorteo extends javax.swing.JFrame {
                 if (i == 9)
                     jLabel2.setText(String.valueOf(decenas));
                 jLabel2.paintImmediately(0,0,jLabel2.getWidth(),jLabel2.getHeight());
-                Thread.sleep(200);
+                Thread.sleep(150);
             }
             for (int i = 0;i < 10;i++) {
                 int numero = generador.nextInt(10);
@@ -186,7 +161,7 @@ public class Sorteo extends javax.swing.JFrame {
                 if (i == 9)
                     jLabel3.setText(String.valueOf(unidades));
                 jLabel3.paintImmediately(0,0,jLabel3.getWidth(),jLabel3.getHeight());
-                Thread.sleep(200);
+                Thread.sleep(150);
             }
         } catch (InterruptedException ex) {
             Logger.getLogger(Sorteo.class.getName()).log(Level.SEVERE, null, ex);
@@ -237,6 +212,7 @@ public class Sorteo extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField jTextFieldNumero;
     // End of variables declaration//GEN-END:variables
 }
